@@ -1,0 +1,22 @@
+{
+  "name": "test-ng-unit",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "karma": "~0.12.37"
+  },
+  "devDependencies": {
+    "jasmine-core": "~2.3.4",
+    "karma-jasmine": "~0.3.6",
+    "karma-chrome-launcher": "~0.2.0",
+    "karma-ng-html2js-preprocessor": "~0.1.2",
+    "karma-coverage": "~0.4.2",
+    "karma": "~0.12.37"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

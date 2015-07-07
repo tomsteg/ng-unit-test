@@ -3,3 +3,4 @@ node_modules/
 app/bower_components/
 test-ng-unit.sublime-project
 test-ng-unit.sublime-workspace
+app/npm-debug.log

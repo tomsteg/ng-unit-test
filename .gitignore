@@ -1,0 +1,4 @@
+coverage/
+node_modules/
+test-ng-unit.sublime-project
+test-ng-unit.sublime-workspace

@@ -7,3 +7,12 @@ I tried to get the karma test running and had some problems:
  2. My test for the directives is not running at all: I always get the error "Uexpected request: GET ../templates/pablo-my-directive.html No more request expected at $httpBackend"
 
 After googling a lot for tipps how to run directive tests with template files I have no clue how this is possible, when you also have a service test.
+
+I posted my problems to the origianl post of Pablo and after 4 hours I had the answer to my problem:
+
+I had to add two lines to my karma.conf.js for configuring the ngHtml2JsPreprocessor:
+
+        stripPrefix: 'app/',
+        prependPrefix: '../'
+
+And everything works now.
